@@ -1,0 +1,104 @@
+.resident_info{
+    background-color: #001c20;
+    border-radius: 3px 3px 15px 15px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 1px 1px 5px rgb(17, 17, 17);
+    transition: transform .2s
+}
+
+.resident_info:hover{
+    transform: scale(1.07);
+    box-shadow: 1px 1px 15px rgb(112, 211, 0);
+}
+
+.header{
+    position: relative;
+}
+
+.status_container{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    position: absolute;
+    top: 1.5em;
+    width: 100px;
+    background-color: #001c20ef;
+    padding: 0.2em 0;
+    padding: 0.2em 0 0.2em 0.4em;
+    border-radius: 0 5px 5px 0;
+}
+
+.status_circle{
+    display: block;
+    width: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(177, 177, 177);;
+}
+
+.unknown{
+    background-color: hwb(0 69% 31%);
+}
+
+
+.Alive{
+    background-color: rgb(0, 158, 0);
+}
+
+.Dead{
+    background-color: rgb(231, 0, 0);
+}
+
+
+
+.unknown_Shadow{
+    box-shadow: 2px 2px 7px rgb(70, 70, 70);
+}
+
+.Alive_Shadow{
+    box-shadow: 1px 1px 7px rgb(34, 177, 34);
+}
+
+.Dead_Shadow{
+    box-shadow: 1px 1px 4px rgb(253, 21, 21);
+}
+
+
+.character_body{
+    padding: 0.4rem 1rem 2rem;
+    
+}
+
+.character_name{
+    font-size: 25px;
+    padding-bottom: 0.5rem;
+}
+
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.219);
+    margin: 0 0.5rem 1rem;
+}
+
+.character_item{
+   display: flex;
+   flex-direction: column;
+   line-height: 18px;
+   font-size: 22px;
+}
+
+.character_label{
+    font-size: 18px;
+    color: rgb(165, 165, 165);
+
+}
+
+
+.character_info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

@@ -1,0 +1,33 @@
+/*----------- RESET --------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Itim', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+    width: 100%;;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+button{
+    border: none;
+    font-family: inherit;
+}

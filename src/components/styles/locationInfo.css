@@ -1,0 +1,36 @@
+.location{
+    background-color: #001c20;
+    box-shadow: 1px 1px 5px rgb(22, 22, 22);
+    padding: 1rem 1.5rem 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+.info_name{
+    text-align:center ;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    color: rgb(0, 217, 255);
+    -webkit-text-stroke: 0.1px rgb(166, 255, 0);
+}
+
+.location_info{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.location_item{
+    display: grid;
+    gap: 0.3rem;
+    text-align: center;
+    color: rgb(165, 165, 165);
+}
+
+.info_label{
+    color: white;
+}
